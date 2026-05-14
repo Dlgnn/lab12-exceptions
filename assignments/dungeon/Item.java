@@ -1,13 +1,12 @@
 public class Item {
+    private final String name;
+    private final int price;   
 
-    // TODO: private талбаруудыг зарлана уу
-    // - name (String)
-    // - price (int)
+    public Item(String name, int price) {
+        this.name = name;
+        this.price = price;
+    }
 
-    // TODO: Constructor бичнэ үү
-    // public Item(String name, int price)
-
-    // TODO: getName() → String
-
-    // TODO: getPrice() → int
+    public String getName() { return name; }
+    public int getPrice() { return price; }
 }
